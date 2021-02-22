@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Ghoster - Home</title>
+<script src="https://kit.fontawesome.com/110793ec63.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="css/index.css">
+<script src="js/buttonClick.js"></script>
+</head>
+<body>
+<div id="main-content">
+<nav>
+<ul>
+<li onclick="redirect('/', parent)">Home</li>
+<li onclick="redirect('/discord', parent)">Support</li>
+</ul>
+<section>
+<i class="fab fa-discord" onclick="redirect('/discord', parent)"></i>
+<i class="fab fa-twitter" onclick="redirect('/twitter', parent)"></i>
+</section>
+</nav>
+<section class="content-body">
+<aside>
+<h1>Ghost pings is no more.</h1>
+<h2>
+Invite Ghoster today and detect ghost pings with an easy setup!
+</h2>
+<div id="button">
+<span id="real-button" onclick=" redirect('/invite', parent)">Invite</span>
+</div>
+</aside>
+<img src="img/phone.svg" alt="Image" width="700px">
+</section>
+</div>
+<div id="secondary-content">
+<section class="card">
+<h1><i class="fas fa-vial"></i> Simple</h1>
+<p>
+Our bot is made for simple use
+and customizable settings.
+Easy to setup. Ready after just one
+single command.
+</p>
+</section>
+<section class="card">
+<h1><i class="fas fa-server"></i> Uptime</h1>
+<p>
+We have our own current hosting, no shared,
+which means that Ghoster can be at its best.
+</p>
+</section>
+<section class="card">
+<h1><i class="fas fa-question-circle"></i> Support</h1>
+<p>
+Never think twice when opening a support ticket within us.
+Get fast and simple support.
+</p>
+</section>
+</div>
+<footer>
+<section id="footer-links-container">
+<section>
+<h1>Links</h1>
+<ul>
+<li onclick="redirect('/invite', parent)">Invite Link</li>
+<li onclick="redirect('/discord', parent)">Support Server</li>
+<li onclick="redirect('https://discord.js.org/', parent)">Discord.JS</li>
+</ul>
+</section>
+<section>
+<h1>Contact Us</h1>
+<ul>
+<li onclick="redirect('/twitter', parent)">Twitter</li>
+<li onclick="email(window)">Email</li>
+<li onclick="redirect('/trello', parent)">Trello</li>
+</ul>
+</section>
+<section>
+<h1>You Might Like</h1>
+<ul>
+<li onclick="redirect('https://minecraft.net/', parent)">Minecraft</li>
+<li onclick="redirect('https://code.visualstudio.com/', parent)">Visual Studio Code</li>
+<li onclick="redirect('https://oxide.host/', parent)">Oxide Hosting</li>
+</ul>
+</section>
+</section>
+</footer>
+</body>
+</html>
